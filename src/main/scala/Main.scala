@@ -25,6 +25,12 @@ object Main {
    */
 
   def main(args: Array[String]): Unit = {
+    val tote = 50
+    var count = 0
+    while (count < tote){
+      println(Generators.positionGen()+" | "+Generators.nameGen())
 
+      count+=1
+    }
   }
 }

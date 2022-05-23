@@ -11,12 +11,14 @@ object Generators {
     "Jet","Tristan","Flint","Remi","Romero","Ronny","Chris","Darius","Damien","Wilford","Blitz","Moxxie","Millie","Prince","Princeton","Samara",
     "Myrtle","Sabrina","Sebastian","Basil","Berry","Cherry","Apple","Citrine","Marina","Mario","Lotus","Wizzy","Amero","Aero","Larry","Iggy","Ludwig",
     "PK","Mack","Matt","Matthew","Bart","Artyom","Ivan","Ivor","Igor","Alex","Alexander","Alexandra","Alexis","Alexiak","Kodiak","Cody","Kody","Travis",
-    "Trevor","Zeriah","Seriah","Sierra","Sienna","Vienna","Pierre","Belle","Benedict","Winston")
-  val lName:Array[String] = Array("Subban","Blackwood","Birchwood","Rosewood","Elliot","Wyckoff","Slate","Panaman","Claude","Johnson","Nurse","Zajac",
+    "Trevor","Zeriah","Seriah","Sierra","Sienna","Vienna","Pierre","Belle","Benedict","Winston","Oscar","Olliver","Ollie","Claude","Santana",
+    "Ryzen","Shigero","Jason","Jacob","Jecob","Olson","Olga","Reina","Theo","Theodore")
+  val lName:Array[String] = Array("Subban","Blackwood","Birchwood","Rosewood","Elliot","Wyckoff","Slate","Panaman","Claus","Johnson","Nurse","Zajac",
     "Carlson","Karlson","Frebauch","Giorgiev","Lochless","Nabakov","Karianov","Starova","Skyfall","Whirlwind","Sunstreak","Sunspire","Johns","Jones",
     "Aubrey","Jameroquai","Moonhooch","Ozborne","Jovi","Belladonna","Gonzales","Rodriguez","Tamriel","Felwood","Winterspring","Ashenvale","Galaway",
     "Hathaway","Thornton","Connor","Siberia","Antoine","Dulette","Marigold","Franz","Wood","Woods","Watt","Popper","Hopper","Vasquez","Petranova",
-    "White","Brown","Black","Prosper","Chicane","Strayrose")
+    "White","Brown","Black","Prosper","Chicane","Strayrose","Bastian","Bastion","Calgary","Niagra","Wallabay","Ollivan","Scorchette","Waxon","Westend",
+    "Miyamoto","Washington","Frederickson","Galto","Wizencof","Wazowski","Sullivan","Betrict","Tru'Sli","Dasianne")
 
   def nameGen(): String ={
     val name = fName(God.nextInt(fName.length))+" "+lName(God.nextInt(lName.length))
